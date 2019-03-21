@@ -1,0 +1,36 @@
+#inputSection {
+    padding: 30px 0px;
+    background: #999;
+    border-radius: 15px;
+}
+
+.hidden {
+
+    display: none;
+}
+
+.card img {
+    height: 200px;
+}
+
+.card-text{
+    min-height: 50px;
+}
+
+.buyButton:hover{
+
+    background: orange;
+    border: 2px solid #333;
+    color: #000;
+    font-weight: bold;
+}
+
+.totalBox{
+    font-size: 28px;
+}
+
+.dropdown-menu button:hover{
+  background: #dc3545;
+  color: #eee;
+
+}

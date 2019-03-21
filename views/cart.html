@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="stylesheet" href="CSS/style2.css">
+    <title>Cart</title>
+</head>
+
+<body>
+
+    <!--NavBar-->
+    <nav class="navbar navbar-expand navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="admin.html">Admin</a>
+                <a class="nav-item nav-link" href="storeFront.html">Storefront</a>
+                <a class="nav-item nav-link active" href="#">Cart <span class="sr-only">(current)</span></a>
+
+            </div>
+        </div>
+    </nav>
+    <!--/NavBar-->
+
+    <div class="container">
+        <div class="row">
+            <div class="mt-3 mb-0 col-md-6">
+                <h3 class="my-4">CART</h3>
+                <ul id="cartList" class="list-group">
+
+                    <!--Cart Items go here-->
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="removedAlert alert alert-success w-25 mt-3 d-none" role="alert">
+          Item Removed Successfully</div>
+
+        <div class="row mt-4 totalBox">
+
+            <div class="col-md-1 align-middle ">
+                <p>Total:</p>
+            </div>
+
+
+
+            <div class="col-md-2">
+                <p id="total"></p>
+            </div>
+
+        </div>
+
+    </div>
+    <!--/Container-->
+
+
+
+    <!--Link Scripts-->
+    <script src="JS/jquery-3.3.1.js"></script>
+    <script src="JS/admin.js"></script>
+    <!--    <script src="JS/preDefList.js"></script>-->
+    <script src="JS/Store.js"></script>
+    <script src="JS/cart.js"></script>
+
+    <script>
+        displayCart();
+    </script>
+
+</body>
+
+</html>
